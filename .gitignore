@@ -1,0 +1,15 @@
+# Môi trường ảo Python
+.venv/
+
+# File sinh ra khi chạy Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Bí mật: API key, mật khẩu. KHÔNG BAO GIỜ commit
+.env
+
+# Kết quả benchmark (file lớn)
+benchmark/results/
